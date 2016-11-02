@@ -1,0 +1,43 @@
+.banner ul,ol{
+	list-style: none;
+}
+.wrapper{
+	width: 1600px;							/* 可更改 */
+	height: 513px;							/* 可更改 */
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.banner ul{
+	height: 100%;
+	position: relative;
+}
+.banner ul li{
+	float: left;
+}
+.banner ul li img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.banner ol{
+	position: absolute;
+	bottom: 5%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+}
+.banner ol li{
+	width: 12px;						
+	height: 12px;							
+	box-sizing: border-box;
+	border-radius: 50%;
+	background: rgb(187,187,187);						
+	float: left;
+	padding-left: 15px;
+	/*opacity: 0;*/
+}
+.banner ol li:hover{
+	background: rgb(187,187,187);						
+	transition: 0.5s;
+}

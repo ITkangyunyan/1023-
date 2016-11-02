@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #333;
+}
+img{
+	border: none;
+	vertical-align: middle;
+}
+
+body{
+	font-family: "微软雅黑";
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 12px;
+    height: 100%;
+    line-height: 22px;
+    width: 100%;
+    color: #444;
+}
+.lf {
+    float: left;
+}
+.rg {
+    float: right;
+}
+.clear{
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+}
+ul, ul li, ol li, tr td, dl dd, dd {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+input {
+    outline: inherit;
+}
+.div_log{
+	background: url(../img/3_01.jpg) center top no-repeat;
+    height: 680px;
+}
+.box{
+	width: 1000px;
+	margin: 0 auto;
+}
+.div1{
+	padding-top: 36px;
+}
+.div2{
+	width: 460px;
+	margin: 0 auto;
+	margin-top: 41px;
+	height: 45px;
+	line-height: 45px;
+}
+.div_log .div2 .lf {
+    font-size: 18px;
+    font-weight: bold;
+}
+.div_log .div2 .rg a {
+    color: #0c7dc6;
+}
+.div3{
+	background: #fff;
+	width: 488px;
+	border-top: 3px solid #79aa35;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+}
+.div3-box .p1 input{
+	width: 283px;
+	height: 22px;
+	border: 0px;
+	width: 100%;
+	height: 22px;
+	line-height: 22px;
+	color: #8a8a8a;
+	font-family: 微软雅黑;
+	font-size: 12px;
+	outline: none;
+}
+.div3-box .p{
+	width: 283px;
+	height: 24px;
+	padding: 6px 9px 6px 29px;
+	border: 1px solid #e9e9e9;	
+}
+.div3-box .p1{
+	background: url(../img/3_03.jpg) 9px center no-repeat;
+}
+.div3-box .li1{
+	padding-bottom: 10px;
+}
+.div3-box ul{
+	width: 323px;
+	margin: 0 auto;
+}
+.div3-box .p2{
+	background: url(../img/3_04.jpg) 9px center no-repeat;
+}
+.div3-box .p2 input{
+	border: 0px;
+	width: 100%;
+	height: 22px;
+	line-height: 22px;
+	color: #8a8a8a;
+	font-family: 微软雅黑;
+	font-size: 12px;
+	outline: none;
+}
+.div3-box .li3{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.div3-box .li1 .sub input{
+	color: #fff;
+	width: 323px;
+	height: 40px;
+	line-height: 40px;
+	background: #79aa35;
+	text-align: center;
+	border-radius: 2px;
+	cursor: pointer;
+	font-size: 14px;
+	border: none;
+}
+
+.div3-box .li4{
+	width: 323px;
+	height: 40px;
+	padding-top: 20px;
+	
+}
+.ss3 {
+    background: #666977;
+    min-height: 410px;
+    color: #fff;
+    text-align: center;
+}
+.ss3 .div1 {
+    padding-top: 65px;
+    font-size: 24px;
+    line-height: 26px;
+}
+.ss3 #div2 {
+    margin-top: 20px;
+}
+.ss3 #div3 {
+    width: 612px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+.ss3 #div3 #div3_1{
+    width: 496px;
+    height: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: #f2f1f3;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ss3 #div3 .lf .text {
+    background: none;
+    border: 0px;
+    height: 25px;
+    line-height: 25px;
+    font-family: 微软雅黑;
+    width: 100%;
+    color: #666;
+    outline: none;
+}
+.ss3 #div3 .rg {
+    width: 86px;
+}
+.ss3 #div3 .rg .bnt_blue {
+    width: 86px;
+    height: 47px;
+    background: #464646;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 47px;
+}
+.ss3 .div4 {
+    margin-top: 25px;
+}
+.ss3 .div4 a {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.ss3 .div4 a{
+	transition: 1s;
+	
+}
+.ss3 .div4 a:hover {
+	transform: rotate(360deg);
+}
+.foot {
+    background: #333333;
+    min-height: 392px;
+}
+.box, .block {
+    width: 1000px;
+    margin: 0 auto;
+}
+.foottop {
+    padding-top: 90px;
+    height: 245px;
+    overflow: hidden;
+}
+.foottop ul {
+    /*float: left;*/
+    width: 158px;
+    border-right: 1px dashed #494949;
+    float: left;
+    margin-right: 50px;
+}
+.foottop ul li {
+    margin-bottom: 5px;
+}
+.foottop ul .li1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.foottop ul .li1 a {
+    cursor: text;
+}
+.foottop ul li a {
+    color: #fff;
+}
+.foottop .ul1 {
+    margin-right: 0px;
+    border-right: 0px;
+}
+.footbottom {
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px solid #2e2e2e;
+    color: #838181;
+}
+
+
