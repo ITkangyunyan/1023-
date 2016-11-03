@@ -273,11 +273,11 @@ a{
 	padding-bottom: 15px;
 	float: left;
 }
-.pic .pic-a{
+.pic .pic_a{
 	width: 318px;
 	height: 324px;
 }
-.pic .pic-a .div1{
+.pic .pic_a .div1{
 	width: 280px;
 	height: 280px;
 	overflow: hidden;
@@ -285,22 +285,22 @@ a{
 	transition: 1.5s ease;
 }
 
-.pic-a .div1 img{
+.pic_a .div1 img{
 	vertical-align: middle;
 	border: none;
 }
-.pic .pic-a .div1 img{
+.pic .pic_a .div1 img{
 	width: 100%;
 	transition: 0.5s;
 }
-.pic .pic-a .div1:hover img{
+.pic .pic_a .div1:hover img{
 	transform: scale(1.1);
 }
-.pic .pic-a .div2,.div3{
+.pic .pic_a .div2,.div3{
 	width: 318px;
 	height: 22px;
 }
-.pic-a .div2{
+.pic_a .div2{
 	font-size: 14px;
     height: 22px;
     overflow: hidden;

@@ -21,7 +21,22 @@ var request = new XMLHttpRequest();
 //					var arr = obj.retData;
 //					获得数据之后,调用布局的函数
 
-
+          // console.log(obj[1][7]);
+					// console.log(obj[1][1]);
+					lunbo2(obj);
 				}
 			}
-  console.log(obj[1][7]);
+function lunbo2(obj){
+	var pic_as = document.getElementsByClassName("pic_a");
+	for(var i = 0; i < pic_as.length;i++){
+		var div1 = pic_as[i].querySelector('.div1');
+		var div2 = pic_as[i].querySelector('.div2');
+		var div3 = pic_as[i].querySelector('.div3');
+		var img = div1.querySelector('img');
+		img.src = "image/"+obj[i][2];
+		console.log(obj[1][1]);
+		div2.innerHTML = obj[i][1];
+		div3.innerHTML = "¥"+obj[i][3]+"元";
+
+	}
+}
